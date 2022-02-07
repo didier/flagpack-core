@@ -1,0 +1,24 @@
+{
+	"name": "@iconify-json/flagpack-l",
+	"description": "flagpack-l icon set in Iconify JSON format",
+	"version": "1.0.0",
+	"main": "index.js",
+	"module": "index.mjs",
+	"types": "index.d.ts",
+	"bugs": "https://github.com/iconify/iconify/issues",
+	"homepage": "https://github.com/iconify/iconify",
+	"exports": {
+		"./*": "./*",
+		".": {
+			"require": "./index.js",
+			"import": "./index.mjs"
+		},
+		"./icons.json": "./icons.json"
+	},
+	"iconSet": {
+		"icons": "icons.json"
+	},
+	"dependencies": {
+		"@iconify/types": "^1.0.12"
+	}
+}
